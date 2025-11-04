@@ -57,7 +57,7 @@ Perfect for teams looking to establish a consistent design system or developers 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/nextjs-component-library.git
+   git clone https://github.com/alisyed-drupalmaze/nextjs-style-guide
    cd nextjs-component-library
    ```
 
@@ -305,8 +305,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📞 Support
 
-- 📧 **Email**: your-email@example.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/your-username/nextjs-component-library/issues)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/alisyed-drupalmaze/nextjs-style-guide/issues)
 - 📖 **Documentation**: [Live Docs](http://localhost:3000/docs)
 
 ---
