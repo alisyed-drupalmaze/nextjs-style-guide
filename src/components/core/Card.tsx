@@ -1,0 +1,27 @@
+import { ReactNode } from 'react'
+
+interface CardProps {
+  children: ReactNode
+  className?: string
+  padding?: 'sm' | 'md' | 'lg'
+}
+
+export default function Card({
+  children,
+  className = '',
+  padding = 'md',
+}: CardProps) {
+  const paddingClasses = {
+    sm: 'p-3',
+    md: 'p-4',
+    lg: 'p-6',
+  }
+
+  return (
+    <div
+      className={`rounded-xl border border-gray-200 shadow-sm bg-white dark:bg-gray-900 dark:border-gray-700 ${paddingClasses[padding]} ${className}`}
+    >
+      {children}
+    </div>
+  )
+}
